@@ -87,6 +87,6 @@ app.get('/exerciesForName/:name',(req, res) => {
 // ==============================
 // listener
 // ==============================
-app.listen('8080', process.env.IP, () => {
+app.listen(process.env.PORT, process.env.IP, () => {
   console.log('we are up!');
 });
